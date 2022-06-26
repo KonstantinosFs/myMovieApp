@@ -1,0 +1,50 @@
+.movies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 420px;
+  height: 680px;
+  margin: 15px;
+}
+
+.movies-img--wrapper {
+  width: 400px;
+  height: 550px;
+}
+
+.movies-img {
+  width: 100%;
+  height: 100%;
+}
+
+.movies-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.movies-details--nameyear {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.movies-details--stars {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .movies-img--wrapper {
+    width: auto;
+    height: auto;
+  }
+}
